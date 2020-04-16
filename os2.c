@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<unistd.h>
+#include<stdlib.h>
 int main()
 {
 	int n,m,i,j,k;
@@ -15,7 +17,7 @@ int main()
 					{2,3,5,6},
 					{0,6,5,2}
 					,{0,6,5,6}};
-	int avail[4] = {1,5,2,0};
+	int avail[4] = {1,5,2,0}; //available
 	
 	
 	int need[n][m];
