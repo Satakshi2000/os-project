@@ -20,7 +20,7 @@ int main()
 	int avail[4] = {1,5,2,0}; //available
 	
 	
-	int need[n][m];
+	int need[n][m];//recources needed
 	int f[n], ans[n], ind = 0; 
     for (k = 0; k < n; k++) { 
         f[k] = 0; 
