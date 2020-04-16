@@ -17,7 +17,7 @@ int main()
 					{2,3,5,6},
 					{0,6,5,2}
 					,{0,6,5,6}};
-	int avail[4] = {1,5,2,0}; //available 
+	int avail[4] = {1,5,2,0}; //available resources 
 	
 	
 	int need[n][m];//recources needed
