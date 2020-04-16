@@ -31,7 +31,7 @@ int main()
 	printf("Enter NUmber:- ");
 	scanf("%d",&a);
 	pthread_t th_id;//initialization of thread variable
-	pthread_create(&th_id,NULL,func,NULL);
+	pthread_create(&th_id,NULL,func,NULL);//creating a thread
 	pthread_join(th_id,NULL);
 	printf("prime number less than equal to your entered number will be printed");
 	exit(0);
