@@ -20,7 +20,7 @@ void *func(void *var)
 		}
 		if(count==2)
 		{
-			printf("%d ",i);//prints the  prime number less than equal to input
+			printf("%d ",i);
 		}
 
 	}
